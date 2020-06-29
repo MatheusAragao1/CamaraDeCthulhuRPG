@@ -4,14 +4,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/inicial">
+    android:background="@mipmap/main_principal">
     <Button
         android:text="Voltar"
         android:layout_width="match_parent"
-        android:layout_height="49.0dp"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:id="@+id/btnVoltarTuto"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVoltarMenu"
         android:background="#ff0e391d"
         android:textColor="#ffffffff" />
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -23,7 +21,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textHistoria"
+        android:id="@+id/textProbs"
         android:scrollbarAlwaysDrawHorizontalTrack="true"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:scrollbars="vertical"
@@ -33,6 +31,4 @@
         android:textStyle="normal"
         android:verticalScrollbarPosition="right" />
     </ScrollView>
-        android:layout_width=""
-        android:layout_height=""/>
 </LinearLayout>

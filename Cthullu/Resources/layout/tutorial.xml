@@ -8,9 +8,7 @@
     <Button
         android:text="Voltar"
         android:layout_width="match_parent"
-        android:layout_height="49.0dp"
-        android:minWidth="25px"
-        android:minHeight="25px"
+        android:layout_height="wrap_content"
         android:id="@+id/btnVoltarTuto"
         android:background="#ff0e391d"
         android:textColor="#ffffffff" />

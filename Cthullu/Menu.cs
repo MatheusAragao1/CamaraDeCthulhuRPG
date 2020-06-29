@@ -25,7 +25,8 @@ namespace Cthullu
             Button btnRemoverSelo = FindViewById<Button>(Resource.Id.actionRemoveSelo);
             Button btnPortao = FindViewById<Button>(Resource.Id.actionSelarPortao);
             Button btnRecSanidade = FindViewById<Button>(Resource.Id.actionSanidade);
-            Button btnProxTurno = btnProxTurno = FindViewById<Button>(Resource.Id.btnTurno);
+            Button btnProxTurno = FindViewById<Button>(Resource.Id.btnTurno);
+            Button btnProbs = FindViewById<Button>(Resource.Id.btnProbs);
 
             //Atribuições gerais
             Acoes acao = new Acoes();
@@ -45,8 +46,12 @@ namespace Cthullu
 
             // Clicks e efeitos
 
+            btnProbs.Click += delegate {
+                StartActivity(typeof(Probabilidades));
+            };
+
             btnInventario.Click += delegate {
-                StartActivity(typeof(Inventario));
+                this.ConfigurarAlertaInventario(builder);
             };
 
             btnArmamento.Click += delegate {
@@ -183,6 +188,35 @@ namespace Cthullu
             alerta.SetTitle($"Resultado do dado: {dado}");
             alerta.SetIcon(Android.Resource.Drawable.IcDialogAlert);
             alerta.SetMessage($"{consoleResultado.Text.Replace($"Resultado: {dado}", "")}");
+            alerta.SetButton("OK", (s, ev) =>
+            {
+                Toast.MakeText(this, "Ok", ToastLength.Short).Show();
+            });
+            alerta.Show();
+
+        }
+
+        public void ConfigurarAlertaInventario(AlertDialog.Builder builder)
+        {
+            string lista = "Seus itens são:\n\n";
+
+            foreach (var cada in Personagem.ListArmamentos.OrderBy(x => x.Nivel))
+            {
+                if (!lista.Contains($"{cada.Nome}"))
+                {
+                    lista += $"- {Personagem.ListArmamentos.Where(x => x.Nome == cada.Nome).Count()}x {cada.Nome} | Nível: {cada.Nivel}\n";
+                }
+            }
+
+            if (lista.Equals("Seus itens são:\n\n"))
+            {
+                lista += " - Sem nenhum item";
+            }
+
+            AlertDialog alerta = builder.Create();
+            alerta.SetTitle($"Selos do ancião obtidos: {Personagem.selosDoAnciao}");
+            alerta.SetIcon(Android.Resource.Drawable.IcDialogAlert);
+            alerta.SetMessage($"{lista}");
             alerta.SetButton("OK", (s, ev) =>
             {
                 Toast.MakeText(this, "Ok", ToastLength.Short).Show();

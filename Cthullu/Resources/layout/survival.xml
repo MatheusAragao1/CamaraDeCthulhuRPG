@@ -3,35 +3,47 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:gravity="center"
     android:background="@mipmap/survival"
     android:layout_height="match_parent">
+
     <TextView
         android:text="Large Text"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
-        android:layout_height="193.9dp"
+        android:layout_height="150dp"
         android:gravity="center"
         android:textColor="#ffffffff"
         android:background="#99000000"
         android:id="@+id/criaturaSurvival" />
-    <Button
+
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+
+        <Button
         android:text="Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300px"
+        android:layout_weight="0.0"
+        android:layout_marginBottom="180dp"
         android:id="@+id/avancarSurvival" />
 
     <TextView
         android:text="Large Text"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
-        android:layout_height="193.9dp"
-        android:layout_marginTop="400px"
-        android:layout_marginBottom="50px"
+        android:layout_height="150dp"
         android:gravity="center"
         android:textColor="#ffffffff"
         android:background="#99000000"
         android:id="@+id/playerSurvival" />
+
+        </LinearLayout>
 
 
 

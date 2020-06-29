@@ -3,14 +3,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:background="@mipmap/vitoria"
+    android:gravity="bottom"
     android:layout_height="match_parent">
     <Button
         android:text="SAIR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_marginTop="1600px"
+        android:layout_marginBottom="40dp"
         android:id="@+id/playAgain" />
 
 

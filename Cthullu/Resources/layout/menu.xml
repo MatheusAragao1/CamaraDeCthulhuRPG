@@ -6,6 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/main_principal">
+    <Button
+        android:text="Clique para checar probabilidades"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffffff"
+        android:background="#99000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProbs" />
+
+
 
     <TextView
         android:text="Horas restantes:"
@@ -15,10 +25,8 @@
         android:gravity="center"
         android:textColor="#ffffffff"
         android:background="#99000000"
-        android:minWidth="25px"
-        android:minHeight="25px"
         android:layout_marginBottom="50px"
-        android:layout_marginTop="100px"
+
         android:id="@+id/horas" />
     <TextView
         android:text="Status negativo:"
