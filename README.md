@@ -25,6 +25,7 @@ Tive a ideia assistindo a um vídeo sobre Eldritch Horror então resolvi desenvo
 >
 >Existem 5 criaturas diferentes possíveis de surgir, cada uma de um respectivel nível [1 ao 5],
 >quando a criatura aparecer você terá 2 opcões que são usar armamentos adquiridos durante o jogo para destrui-lá dependendo do nível da criatura e do armamento ou tentar lutar com a critura usando uma arma mais fraca.
+>
 >		Exemplo: armamento nível 2 mata qualquer criatura do nível 2 para baixo,
 >			 armamento nível 4 mata qualquer criatura do nível 4 para baixo,
 >			 armamento nível 1 só mata criaturas do nível 1.
