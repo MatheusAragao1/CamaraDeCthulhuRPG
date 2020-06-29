@@ -44,11 +44,17 @@ Tive a ideia assistindo a um vídeo sobre Eldritch Horror então resolvi desenvo
 >
   > Ao selecionar a ação no seu turno o dado do destino é lançado:
 >	- Resultados:
+>
 >		0 a 2 - Nenhuma arma encontrada
+>
 >		3 a 5 - Armamento nível 1 encontrado (Adaga)
+>
 >		6 a 10 - Armamento nível 2 encontrado (Espada)
+>
 >		11 a 13- Armamento nível 3 encontrado (Machado)
+>
 >		14 a 16 - Armamento nível 4 encontrado (Lança)
+>
 >		17 a 20 - Armamento nível 5 encontrado (Munição de revólver)
 >
 >
@@ -60,7 +66,9 @@ Tive a ideia assistindo a um vídeo sobre Eldritch Horror então resolvi desenvo
 >	Caso o jogador tente usar essa ação após já ter removido os 4 selos do ancião, será informado ao jogador que a ação está indisponivel.
 >
 >	- Resultados:
+>
 >		0 a 13 - Falhou
+>
 >		14 a 20 - Sucesso
 >
 >-------------------------------------------------------------------------------------
@@ -69,13 +77,17 @@ Tive a ideia assistindo a um vídeo sobre Eldritch Horror então resolvi desenvo
 >	- O jogador irá tentar selar o portão da câmara em caso de sucesso no próximo turno das trevas nenhum evento sombrio de surgimento de criatura acontecerá.
 >
 >	- Resultados:
+>
 >		0 a 13 - Falhou
+>
 >		14 a 20 - Sucesso
 >
 >---------------------------------------------------------------------------------------
  >Ação RECUPERAR SANIDADE -
  >---------------------------------------------------------------------------------------
 >   - O jogador irá tentar recuperar sua sanidade para prolongar o status de insanidade (caso o status zere o jogador perde o jogo).
-> 		- Resultados:
+> 	- Resultados:
+>
 >		0 a 10 - Falhou
+>
 >		11 a 20 - Sucesso
