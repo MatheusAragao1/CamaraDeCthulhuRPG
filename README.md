@@ -2,6 +2,7 @@
 
 Jogo RPG simples desenvolvido como experimento usando Xamarim Forms, existem comentários no código caso existam dúvidas sobre os métodos.
 Caso você encontre algum bug irei aceitar o Pull requests com a correção.
+
 OBS: Refatorações também são muito bem vindas! :shipit:
 OBS2: Android only!
 
