@@ -1,0 +1,138 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_principal">
+
+    <TextView
+        android:text="Horas restantes:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="25.9dp"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:background="#99000000"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginBottom="50px"
+        android:layout_marginTop="100px"
+        android:id="@+id/horas" />
+    <TextView
+        android:text="Status negativo:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99000000"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:layout_marginBottom="50px"
+        android:id="@+id/status" />
+    <TextView
+        android:text="Ações restantes no turno:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99000000"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:layout_marginBottom="150px"
+        android:id="@+id/actions" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center"
+        android:layout_marginBottom="70.0dp">
+
+        <Button
+            android:text="Abrir inventário"
+            android:background="#ff134924"
+            android:textColor="#ffffffff"
+            android:layout_height="wrap_content"
+            android:layout_width="200.0dp"
+            android:id="@+id/inventario" />
+
+    </LinearLayout>
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout1"
+        android:layout_marginBottom="25.0dp">
+        <Button
+            android:text="PROCURAR ARMAMENTO"
+            android:layout_width="150.0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:id="@+id/actionArmamento"
+            android:textColor="#ffffffff"
+            android:background="#006666" />
+        <Button
+            android:text="REMOVER SELO DO ANCIÃO"
+            android:layout_width="150.0dp"
+            android:textColor="#ffffffff"
+            android:layout_height="wrap_content"
+            android:background="#cd1c00"
+            android:layout_gravity="center"
+            android:id="@+id/actionRemoveSelo" />
+    </GridLayout>
+
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout2"
+        android:layout_marginBottom="50.0dp">
+        <Button
+            android:text="SELAR PORTÃO"
+            android:layout_width="150.0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100px"
+            android:layout_height="wrap_content"
+            android:id="@+id/actionSelarPortao"
+            android:textColor="#ffffffff"
+            android:background="#3a316f" />
+        <Button
+            android:text="RECUPERAR SANIDADE"
+            android:layout_width="150.0dp"
+            android:textColor="#ffffffff"
+            android:background="#1b6f1b"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/actionSanidade" />
+    </GridLayout>
+    <TextView
+        android:text="Resultado:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="#99000000"
+        android:textColor="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150px"
+        android:id="@+id/consoleResultado" />
+
+
+    <Button
+        android:text="Avançar turno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99000000"
+        android:textColor="#ffffffff"
+        android:id="@+id/btnTurno" />
+
+
+
+
+
+
+
+</LinearLayout>

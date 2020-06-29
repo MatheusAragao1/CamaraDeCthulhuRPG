@@ -1,0 +1,44 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/inicial"
+    android:id="@+id/relativeLayout1"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:weightSum="60.0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:gravity="center">
+        <Button
+            android:text="Jogar"
+            android:layout_weight="0.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100px"
+            android:id="@+id/btnPlay"
+            android:background="#ff134924"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:text="Tutorial"
+            android:layout_weight="0.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTuto"
+            android:background="#ff134924"
+            android:textColor="#ffffffff"/>
+        
+
+    </LinearLayout>
+
+
+</RelativeLayout>

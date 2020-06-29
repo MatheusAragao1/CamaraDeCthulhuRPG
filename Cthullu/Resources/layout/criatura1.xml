@@ -1,0 +1,39 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/criatura1"
+    android:id="@+id/fundoCriatura">
+    <TextView
+        android:text="Criatura | Nível 1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99000000"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="Log"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="193.9dp"
+        android:layout_marginTop="1000px"
+        android:layout_marginBottom="50px"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:background="#99000000"
+        android:id="@+id/atacar"/>
+
+
+
+    <Button
+        android:text="Avançar (BLOQUEADO)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAvancar" />
+
+
+</LinearLayout>

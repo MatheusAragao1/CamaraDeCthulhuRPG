@@ -1,0 +1,38 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/inicial">
+    <Button
+        android:text="Voltar"
+        android:layout_width="match_parent"
+        android:layout_height="49.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/btnVoltarTuto"
+        android:background="#ff0e391d"
+        android:textColor="#ffffffff" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:scrollbars="vertical" 
+        android:visibility="visible">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textHistoria"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:textColor="#ffffffff"
+        android:text="Teste"
+        android:background="#99000000"
+        android:textStyle="normal"
+        android:verticalScrollbarPosition="right" />
+    </ScrollView>
+        android:layout_width=""
+        android:layout_height=""/>
+</LinearLayout>

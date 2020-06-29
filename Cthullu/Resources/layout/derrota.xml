@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+     android:background="@mipmap/despertou"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Causa:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:gravity="center"        
+        android:textColor="#ffffffff"
+        android:background="#99000000"
+        android:layout_height="wrap_content"
+        android:id="@+id/aCausa"/>
+
+    <Button
+        android:text="SAIR"
+        android:layout_width="match_parent"
+        android:layout_height="35.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:textColor="#ffffffff"
+        android:background="#3a316f"
+        android:layout_marginTop="1600px"
+        android:id="@+id/playAgain" />
+
+</LinearLayout>
