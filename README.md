@@ -21,16 +21,15 @@ Tive a ideia assistindo a um vídeo sobre Eldritch Horror então resolvi desenvo
 >
 >Após realizar suas ações e avançar para o próximo turno o jogo irá realizar suas próprias ações também a isso chamamos de turno das trevas.
 >
->Eventos sombrios:
+>   - Surgiu riatura pelo portão da câmara
 >
->   - Criatura surgir pelo portão da câmara
->      > Existem 5 criaturas diferentes possíveis de surgir, cada uma de um respectivel nível [1 ao 5],
->	quando a criatura aparecer você terá 2 opcões que são usar armamentos adquiridos durante o jogo para destrui-lá dependendo do nível da criatura e do armamento ou tentar lutar com a critura usando uma arma mais fraca.
->		Exemplo: armamento nível 2 mata criatura nível 2,
+>Existem 5 criaturas diferentes possíveis de surgir, cada uma de um respectivel nível [1 ao 5],
+>quando a criatura aparecer você terá 2 opcões que são usar armamentos adquiridos durante o jogo para destrui-lá dependendo do nível da criatura e do armamento ou tentar lutar >com a critura usando uma arma mais fraca.
+>		Exemplo: armamento nível 2 mata qualquer criatura do nível 2 para baixo,
 >			 armamento nível 4 mata qualquer criatura do nível 4 para baixo,
 >			 armamento nível 1 só mata criaturas do nível 1.
 >		
->		Exemplo: Caso não tenha uma arma do mesmo nível da criatura ou superior sua arma mais forte será usada em uma batalha até a morte com a criatura e essa batalha o resultado é dado por: Dado do jogador + nível da arma VERSUS Dado da criatura + nível da criatura.
+>		Exemplo2: Caso não tenha uma arma do mesmo nível da criatura ou superior sua arma mais forte será usada em uma batalha até a morte com a criatura e essa batalha o resultado >é dado por: Dado do jogador + nível da arma VERSUS Dado da criatura + nível da criatura.
 >								 
 >_________________________________________________________________________________________________________________________________________
 >
@@ -56,7 +55,7 @@ Tive a ideia assistindo a um vídeo sobre Eldritch Horror então resolvi desenvo
  >Ação REMOVER SELO DO ANCIÃO -
  >---------------------------------------------------------------------------------------
  >- O jogador irá tentar remover um selo do ancião para destruir o ritual e impedir que o ancião desperte
->	O jogador precisa se remover os 4 selos do ancião e chegar ao fim dos turnos para vencer o jogo.
+>	O jogador precisa remover os 4 selos do ancião e chegar ao fim dos turnos para vencer o jogo.
 >	Caso o jogador tente usar essa ação após já ter removido os 4 selos do ancião, será informado ao jogador que a ação está indisponivel.
 >
 >	- Resultados:
@@ -75,7 +74,7 @@ Tive a ideia assistindo a um vídeo sobre Eldritch Horror então resolvi desenvo
 >---------------------------------------------------------------------------------------
  >Ação RECUPERAR SANIDADE -
  >---------------------------------------------------------------------------------------
->   - O jogador irá tentar recuperar sua sanidade para prolongar o status de insanidade.
+>   - O jogador irá tentar recuperar sua sanidade para prolongar o status de insanidade (caso o status zere o jogador perde o jogo).
 > 		- Resultados:
 >		0 a 10 - Falhou
 >		11 a 20 - Sucesso
