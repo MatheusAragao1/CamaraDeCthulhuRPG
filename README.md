@@ -6,6 +6,8 @@ Caso você encontre algum bug irei aceitar o Pull requests com a correção.
 OBS: Refatorações também são muito bem vindas! :shipit:
 OBS2: Android only!
 
+OBS3: O jogo foi desenvolvido como experimento em tela de smartphone e somente para treino de código, logo ele não ficará bem encaixado em telas de tablet pois não preparei a solucão para tal tela.
+
 ## Tutorial do jogo
 
 Tive a ideia assistindo a um vídeo sobre Eldritch Horror então resolvi desenvolver esse app com base no mesmo.
